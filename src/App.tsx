@@ -3,8 +3,7 @@ import './App.css'
 function App() {
   return (
     <>
-      <h1>Portfolio Website</h1>
-      <p>Cool!</p>
+      <h1>Tijmen Verhoef's Portfolio Website</h1>
     </>
   )
 }
