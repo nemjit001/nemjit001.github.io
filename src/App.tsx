@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <h1>Tijmen Verhoef's Portfolio Website</h1>
-      <p>This page will serve a portfolio website containing all my programming projects.</p>
+      <p>Welcome to my portfolio website, take a look around!</p>
       <AboutMe />
     </>
   )
