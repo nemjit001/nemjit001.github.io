@@ -5,8 +5,7 @@ function App() {
   return (
     <>
       <header className='header'>
-        <h1>Tijmen Verhoef</h1>
-        <p>Welcome to my portfolio website, take a look around!</p>
+        <h1>Portfolio</h1>
       </header>
       <main className='content'>
         <AboutMe />

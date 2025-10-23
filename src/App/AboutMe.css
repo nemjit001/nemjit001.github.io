@@ -2,3 +2,11 @@
     border-radius: 32rem;
     width: 15rem;
 }
+
+.social-blurb {
+    margin: auto 1rem;
+}
+
+.social-blurb > img {
+    width: 4rem;
+}
