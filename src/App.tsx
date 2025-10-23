@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <header className='header'>
-        <h1>Portfolio</h1>
+        <h1>My Portfolio</h1>
       </header>
       <main className='content'>
         <AboutMe />
