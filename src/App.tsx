@@ -1,10 +1,19 @@
 import './App.css'
+import AboutMe from './App/AboutMe'
+import Projects from './App/Projects'
+import SocialBlurbs from './App/SocialBlurbs'
 
 function App() {
   return (
     <>
-      <h1>Tijmen Verhoef's Portfolio Website (WIP)</h1>
-      <p>This page will serve a portfolio website containing all my programming projects.</p>
+      <header className='header'>
+        <h1>Welcome to my Portfolio!</h1>
+      </header>
+      <main className='content'>
+        <AboutMe />
+        <Projects />
+        <SocialBlurbs />
+      </main>
     </>
   )
 }
