@@ -13,14 +13,14 @@ function SocialBlurbs() {
                     <picture className='social-blurb'>
                         <source srcSet={GitHubIcon} media='(prefers-color-scheme: light)'/>
                         <source srcSet={GitHubIconWhite} media='(prefers-color-scheme: dark)'/>
-                        <img src={GitHubIcon}/>
+                        <img src={GitHubIcon} alt='GitHub icon that links to my GitHub profile'/>
                     </picture>
                 </a>
                 <a href='https://linkedin.com/in/tijmen-verhoef/' target='_blank'>
                     <picture className='social-blurb'>
                         <source srcSet={LinkedInIcon} media='(prefers-color-scheme: light)'/>
                         <source srcSet={LinkedInIconWhite} media='(prefers-color-scheme: dark)'/>
-                        <img src={LinkedInIcon}/>
+                        <img src={LinkedInIcon} alt='LinkedIn icon that links to my LinkedIn profile'/>
                     </picture>
                 </a>
             </section>

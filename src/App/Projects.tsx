@@ -40,7 +40,7 @@ function ProjectEntry(id: number, project: ProjectDescription) {
             <h3 id={String(id)}>{project.name}</h3>
             <a href={project.url} target="_blank">{project.url}</a>
             <div className='project-description'>
-                { project.image ? <img src={project.image}/> : <></> }
+                { project.image ? <img src={project.image} role='none'/> : <></> }
                 <div>
                     { project.description.map((content, id) => <p id={String(id)}>{content}</p>) }
                 </div>
