@@ -5,3 +5,21 @@
 .content {
   padding: 0rem 30rem;
 }
+
+@media (max-width: 800px) {
+  .content {
+    padding: 0rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .content {
+    padding: 0rem 10rem;
+  }
+}
+
+@media (max-width: 1600px) {
+  .content {
+    padding: 0rem 15rem;
+  }
+}

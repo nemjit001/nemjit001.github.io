@@ -23,3 +23,10 @@ body {
     background-color: #ffffff;
   }
 }
+
+@media (width > 1920px) {
+  body {
+    width: 1920px;
+    margin: auto auto;
+  }
+}

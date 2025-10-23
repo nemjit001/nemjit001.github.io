@@ -5,24 +5,26 @@
 
 .project-description {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.project-description:nth-child(even) {
-    flex-direction: row;
-}
-
-.project-description:nth-child(odd) {
-    flex-direction: row-reverse;
-}
-
-.project-description > * {
-    margin: 0rem 1rem;
 }
 
 .project-description > img {
     border-radius: 1rem;
     height: 12rem;
+}
+
+@media (min-width: 800px) {
+    .project-description {
+        flex-direction: row;
+    }
+
+    .project:nth-child(odd) > .project-description {
+        flex-direction: row-reverse;
+    }
+
+    .project-description > * {
+        margin: 0rem 1rem;
+    }
 }

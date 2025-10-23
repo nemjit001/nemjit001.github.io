@@ -18,6 +18,7 @@ const PROJECT_LIST: ProjectDescription[] = [
             `The render framework allows fast implementation of render techniques through its flexible render graph system, with support for both rasterization and
             ray tracing. The default render backend uses Vulkan 1.3, with long term plans for DirectX12 support.`
         ],
+        image: HybridRendererImage
     },
     {
         name: "Hybrid Renderer",
@@ -34,18 +35,18 @@ const PROJECT_LIST: ProjectDescription[] = [
     },
 ]
 
-function ProjectEntry(id: number, project: ProjectDescription) {
+function ProjectEntry(idx: number, project: ProjectDescription) {
     return (
-        <>
-            <h3 id={String(id)}>{project.name}</h3>
+        <div key={idx} className='project'>
+            <h3>{project.name}</h3>
             <a href={project.url} target="_blank">{project.url}</a>
             <div className='project-description'>
                 { project.image ? <img src={project.image} role='none'/> : <></> }
                 <div>
-                    { project.description.map((content, id) => <p id={String(id)}>{content}</p>) }
+                    { project.description.map((content, idx) => <p key={idx}>{content}</p>) }
                 </div>
             </div>
-        </>
+        </div>
     );
 }
 
