@@ -1,0 +1,7 @@
+.social-blurb {
+    margin: auto 1rem;
+}
+
+.social-blurb > img {
+    width: 4rem;
+}
