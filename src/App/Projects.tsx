@@ -37,7 +37,7 @@ const PROJECT_LIST: ProjectDescription[] = [
 function ProjectEntry(id: number, project: ProjectDescription) {
     return (
         <>
-            <h3>{project.name}</h3>
+            <h3 id={String(id)}>{project.name}</h3>
             <a href={project.url} target="_blank">{project.url}</a>
             <div className='project-description'>
                 { project.image ? <img src={project.image}/> : <></> }
