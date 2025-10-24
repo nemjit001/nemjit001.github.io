@@ -2,3 +2,9 @@
     border-radius: 32rem;
     width: 15rem;
 }
+
+@media (width < 800px) {
+    .headshot-image {
+        width: 10rem;
+    }
+}

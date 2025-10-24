@@ -12,10 +12,10 @@
 
 .project-description > img {
     border-radius: 1rem;
-    height: 12rem;
+    height: 8rem;
 }
 
-@media (min-width: 800px) {
+@media (800px <= width) {
     .project-description {
         flex-direction: row;
     }
@@ -26,5 +26,9 @@
 
     .project-description > * {
         margin: 0rem 1rem;
+    }
+
+    .project-description > img {
+        height: 12rem;
     }
 }

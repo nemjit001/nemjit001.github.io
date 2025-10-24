@@ -17,8 +17,7 @@ const PROJECT_LIST: ProjectDescription[] = [
             to the render pipeline used for scenes. It is actively being developed.`,
             `The render framework allows fast implementation of render techniques through its flexible render graph system, with support for both rasterization and
             ray tracing. The default render backend uses Vulkan 1.3, with long term plans for DirectX12 support.`
-        ],
-        image: HybridRendererImage
+        ]
     },
     {
         name: "Hybrid Renderer",
@@ -41,7 +40,7 @@ function ProjectEntry(idx: number, project: ProjectDescription) {
             <h3>{project.name}</h3>
             <a href={project.url} target="_blank">{project.url}</a>
             <div className='project-description'>
-                { project.image ? <img src={project.image} role='none'/> : <></> }
+                { project.image !== undefined && <img src={project.image} role='none'/> }
                 <div>
                     { project.description.map((content, idx) => <p key={idx}>{content}</p>) }
                 </div>

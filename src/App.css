@@ -6,19 +6,19 @@
   padding: 0rem 30rem;
 }
 
-@media (max-width: 800px) {
+@media (width < 1000px) {
   .content {
     padding: 0rem;
   }
 }
 
-@media (max-width: 1280px) {
+@media (100px <= width < 1280px) {
   .content {
-    padding: 0rem 10rem;
+    padding: 0rem 5rem;
   }
 }
 
-@media (max-width: 1600px) {
+@media (1280px <= width < 1600px) {
   .content {
     padding: 0rem 15rem;
   }
