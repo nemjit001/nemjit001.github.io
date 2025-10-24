@@ -12,6 +12,9 @@ function AboutMe() {
                     for real-time applications and video games.
                 </p>
                 <p>
+                    I have a Bsc. Computer Science, and am currently working towards my Msc. Game & Media Technology.
+                </p>
+                <p>
                     In short this means that I make pretty pictures!
                 </p>
             </section>
