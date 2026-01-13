@@ -3,6 +3,10 @@
     width: 15rem;
 }
 
+.education {
+    font-weight: bold;
+}
+
 @media (width < 800px) {
     .headshot-image {
         width: 10rem;
