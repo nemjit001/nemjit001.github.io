@@ -55,7 +55,7 @@ function Projects() {
             <h2>Graphics projects</h2>
             <section>
                 <p>
-                    Below are my open-source graphics projects. These projects are publicly available and represent abilities as a graphics programmer and software engineer.
+                    Below are my open-source graphics projects. These projects are publicly available and represent my abilities as a graphics programmer and software engineer.
                 </p>
             </section>
             <section className='projects'>

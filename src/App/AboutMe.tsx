@@ -21,7 +21,7 @@ function AboutMe() {
             </section>
             <h2>Current Employment</h2>
             <section>
-                <p>I am currently self-employed as an indepentent game developer, working on a yet unreleased title.</p>
+                <p>I am currently self-employed as an indepentent game developer, working on a yet unanounced title.</p>
             </section>
         </>
     );
