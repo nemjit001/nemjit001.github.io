@@ -9,16 +9,16 @@ interface ProjectDescription {
 }
 
 const PROJECT_LIST: ProjectDescription[] = [
-    {
-        name: "Bonsai",
-        url: "https://github.com/nemjit001/bonsai-renderer",
-        description: [
-            `Bonsai is a high performance render engine written in C++, with the aim of being completely cross platform and highly customizable in regards
-            to the render pipeline used for scenes. It is actively being developed.`,
-            `The render framework allows fast implementation of render techniques through its flexible render graph system, with support for both rasterization and
-            ray tracing. The default render backend uses Vulkan 1.3, with long term plans for DirectX12 support.`
-        ]
-    },
+    // {
+    //     name: "Bonsai",
+    //     url: "https://github.com/nemjit001/bonsai-renderer",
+    //     description: [
+    //         `Bonsai is a high performance render engine written in C++, with the aim of being completely cross platform and highly customizable in regards
+    //         to the render pipeline used for scenes. It is actively being developed.`,
+    //         `The render framework allows fast implementation of render techniques through its flexible render graph system, with support for both rasterization and
+    //         ray tracing. The default render backend uses Vulkan 1.3, with long term plans for DirectX12 support.`
+    //     ]
+    // },
     {
         name: "Hybrid Renderer",
         url: "https://github.com/nemjit001/hybrid-renderer",
