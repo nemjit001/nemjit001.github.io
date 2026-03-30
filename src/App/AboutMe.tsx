@@ -8,21 +8,21 @@ function AboutMe() {
             <section>
                 <img className='headshot-image' src={ProfilePic} alt='Profile picture showing me standing in a field' />
                 <p>
-                    My name is Tijmen Verhoef, and I am a game devloper and graphics programmer who specializes in ray tracing and rendering techniques
-                    for real-time applications and video games.
+                    My name is Tijmen Verhoef, and I am a game developer and graphics programmer who specializes in real-time ray tracing and rendering techniques
+                    for applications and video games.
                 </p>
                 <p>
-                    I have a <span className="education">Msc. Game and Media Technology</span> from
-                    Utrecht University, and a <span className="education">Bsc. Computer Science</span> from the Vrije Univesiteit Amsterdam.
+                    I have a <span className="education">MSc. Game and Media Technology</span> from
+                    Utrecht University, and a <span className="education">BSc. Computer Science</span> from the Vrije Univesiteit Amsterdam.
                 </p>
                 <p>
-                    In short this means that I make pretty pictures!
+                    I am active in the Indie Game Development and Graphics Programming scenes, in short this means that I make pretty pictures!
                 </p>
             </section>
-            <h2>Current Employment</h2>
+            {/* <h2>Current Employment</h2>
             <section>
                 <p>I am currently self-employed as an indepentent game developer, working on a yet unannounced title.</p>
-            </section>
+            </section> */}
         </>
     );
 }

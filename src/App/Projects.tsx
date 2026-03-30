@@ -1,4 +1,5 @@
 import './Projects.css'
+import AtmosphereRenderingImage from '/atmosphere_rendering.png'
 import HybridRendererImage from '/hybrid_renderer.png'
 
 interface ProjectDescription {
@@ -9,6 +10,17 @@ interface ProjectDescription {
 }
 
 const PROJECT_LIST: ProjectDescription[] = [
+    {
+        name: "Atmosphere Rendering",
+        url: "https://github.com/nemjit001/atmosphere-rendering",
+        description: [
+            `This project is a custom implementation of Unreal Engine's atmosphere rendering pipeline described in
+            the paper "A Scalable and Production Ready Sky and Atmosphere Rendering Technique" by Sébastien Hillaire (2020)`,
+            `The render pipeline was implemented in EA SEED's Gigi Rendering Framework. The render pipeline can be reused by other techniques,
+            acting as a drop-in replacement for a regular sky box.`
+        ],
+        image: AtmosphereRenderingImage
+    },
     // {
     //     name: "Bonsai",
     //     url: "https://github.com/nemjit001/bonsai-renderer",
@@ -23,12 +35,11 @@ const PROJECT_LIST: ProjectDescription[] = [
         name: "Hybrid Renderer",
         url: "https://github.com/nemjit001/hybrid-renderer",
         description: [
-            `A rendering project testing the combination of hybrid rendering (rasterization + ray tracing) and stochastic LOD sampling, made using Vulkan 1.3 and 
-            the Vulkan ray tracing extensions.`,
+            `This project showcases combining a hybrid rendering pipeline (rasterization + ray tracing) with stochastic LOD sampling,
+            implemented using Vulkan 1.3 and the Vulkan ray tracing extensions.`,
             `The implementation provides a reference path tracer implemented using RTX raytracing, and a Hybrid Rendering pipeline
             that combines a standard deferred shading setup with raytraced direct illumination.`,
-            `The Stochastic LOD sampling blends model LOD’s in both a rasterized
-            G-Buffer pass and in the raytracing passes.`
+            `The Stochastic LOD sampling blends model LODs in both a rasterized G-Buffer pass and in the raytracing passes.`
         ],
         image: HybridRendererImage
     },
